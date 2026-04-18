@@ -1,6 +1,6 @@
 @import url("./global.css");
 
-header {
+header{
     display: flex; /*Para que um grupo fique ao lado do outro*/
     justify-content: space-between; /*Colocar nas estremidades*/
     align-items: center; /*centraliza na vertical*/
@@ -14,7 +14,7 @@ header {
     gap: 70px; /*Distância entre os elementos*/
 }
 
-.navigation-header ul {
+.navigation-header ul{
     display: flex; /*Para que um grupo fique ao lado do outro*/
     gap: 40px; /* distancia entre os elementos */
     list-style: none; /*Remove a bolinha*/
@@ -23,14 +23,14 @@ header {
 .navigation-header ul li a{
     text-decoration: none; /*decoraçao do texto*/
     color: var(--color-black); /*cor do texto*/
-    font-family: var(--font-primary); /**/
+    font-family: var(--font-primary); /*altera a fonte*/
 }
 
-.navigation-header ul li .menu-active {
-    color: var(--color-blue);
+.navigation-header ul li .menu-active{
+    color: var(--color-blue); /*altera a cor*/
 }
 
-.btn-header {
+.btn-header{
     text-decoration: none; /*Tira a decoração do texto*/
     background-color: var(--color-blue); /* cor do fundo */
     color: var(--color-white); /*Cor da fonte*/
@@ -39,3 +39,72 @@ header {
     padding: 10px 20px; /*Espaçamento interno*/
     font-weight: var(--font-weight-button); /*Espessura da fonte*/
 }
+
+/*----- MAIN ------*/
+main{
+    display: flex; /*organiza um elementos um do lado do outro*/
+    justify-content: center; /*Centraliza os elementos na Horizontal*/
+    align-items: center; /*Centraliza os elemento na Vertical*/
+    gap: 50px; /*Distância de um Elemanto para o outro*/
+    background-color: var(--color-blue-10); /*Cor de Fundo*/
+    padding: 50px 0; /*Espaçamento interno*/
+}
+
+.main-content{
+    display: flex; /*para habilitar o gap*/
+    flex-direction: column; /*deixar em coluna*/
+    gap: 30px; /*Distância entre os elementos*/
+    width: 520px; /*Largura do Elemento*/
+}
+
+.main-content h1{
+    font-size: var(--font-size-h1); /*Tamanho da Fonte*/
+    font-family: var(--font-primary); /*Altera a Fonte*/
+    font-weight: var(--font-weight-h1); /*Espessura da Fonte*/
+}
+
+.main-content h1 span{
+    color: var(--color-blue); /*Altera a cor*/
+}
+
+.main-content p{
+    font-family: var(--font-primary); /*Altera a fonte*/
+    color: var(--color-gray); /*Altera a cor do texto*/
+    line-height: 30px; /*Distância entre as Linhas*/
+}
+
+.container-cta{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-primary, .btn-secondary{
+    padding: 8px 55px; /*Espaçamento interno*/
+    border-radius: 10px; /*borda do elemento*/
+    font-weight: var(--font-weight-button); /*Espessura do Botão*/
+    text-decoration: none; /*Tira a decoração do elemento*/
+    font-family: var(--font-primary); /*Altera a fonte*/
+}
+
+.btn-primary{
+    background-color: var(--color-blue); /*Cor de Fundo*/
+    color: var(--color-white); /*Cor da fonte*/
+    transition: 0.3s; /*tempo de transção do elemento*/
+}
+
+.btn-primary:hover{
+    background-color: #005e89;
+}
+
+.btn-secondary{
+    background-color: var(--color-white); /*Cor de Fundo*/
+    color: var(--color-blue); /*Cor de texto*/
+    border: 1px solid var(--color-blue); /*Borda do elemento*/
+    transition: 0.3s; /*tempo de transção do elemento*/
+}
+
+.btn-secondary:hover{
+    background-color: #e6e6e6;
+
+}
+
