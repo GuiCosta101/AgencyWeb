@@ -135,3 +135,84 @@ main{
     font-weight: var(--font-weight-caption);
     font-size: var(--font-size-caption);
 }
+
+/* SECTION DETAILS */
+.section-details{
+    display: flex; /* Habilitar o gap */
+    flex-direction: column; /* Colocar os Elementos em colunas */
+    gap: 80px; /* Distância entres os Elementos*/
+    align-items: center; /* Cuida da Horizontal (Flex-direction: column)*/
+    padding: 80px 0; /* Espaçamento interno*/
+}
+
+.details-presention{
+    display: flex; /* Habilita o gap */
+    flex-direction: column; /* coloca os elementos em coluna  */
+    gap: 30px; /* Espaçamento até os elementos */
+    text-align: center; /* Texto ao Centro */
+}
+
+.details-presention h2{
+    font-size: var(--font-size-h2); /* Tamanho da Fonte */
+    font-family: var(--font-primary); /* Família da Fonte */
+    font-weight: var(--font-weight-h2); /* Espessura da Fonte */
+}
+
+.details-presention p{
+    color: var(--color-gray-2); /* Cor do Paragrafo */
+    font-size: var(--font-size-body); /* Tamanho da Fonte */
+    font-family: var(--font-primary); /* Família da Fonte */
+    width: 665px; /* Largura */
+    margin: 0 auto; /*  */
+}
+
+.service-description{
+    display: flex; /* Coloca os Elementos um ao lado do outro */
+    align-items: center; /* Centraliza na Vertical */
+    gap: 60px; /* Distância entre os Elementos */
+}
+
+.content-service{
+    display: flex; /* Habilitar o gap */
+    flex-direction: column; /* Coloca em Coluna */
+    gap: 40px; /* Distância entre os elementos */
+}
+
+.service-details{
+    display: flex; /* Elementos um do lado do outro */
+    align-items: center; /* Centraliza na Vertical */
+    gap: 25px; /* Distância entre os elementos */
+}
+
+.service-details div span{
+    font-family: var(--font-primary); /* Família da Fonte */
+    font-size: var(--font-size-h4); /* Tamanho da Fonte */
+    font-weight: var(--font-weight-h4); /* Espessura da Fonte */
+}
+
+.service-details div p{
+    font-family: var(--font-primary); /* Família da Fonte */
+    font-size: var(--font-size-caption); /* Tamanho da Fonte */
+    color: var(--color-gray-2); /* Cor do texto */
+}
+
+.content-service h3{
+    font-family: var(--font-primary); /* Família da Fonte */
+    font-size: var(--font-size-h3); /* Tamanho da Fonte */
+    font-weight: var(--font-weight-h3); /* Espessura da Fonte */
+    width: 420px; /* Largura */
+}
+
+.content-service h3 span{
+    color: var(--color-blue); /* Cor do Texto */
+}
+
+.content-service p{
+    font-family: var(--font-primary); /* Família da Fonte */
+    font-size: var(--font-size-body); /* Tamanho da Fonte */
+    color: var(--color-gray); /* Cor do texto */
+    line-height: 27px; /* Espaçamento entre as linhas */
+    width: 445px; /* Largura */
+}
+
+
