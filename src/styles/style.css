@@ -215,4 +215,44 @@ main{
     width: 445px; /* Largura */
 }
 
+/* SECTION BENEFIT */
 
+.section-benefit{
+    display: flex; /* Coloca um do lado do outro */
+    justify-content: center; /* Alinha na Horizontal */
+    gap: 20px; /* Distância entre os elementos */
+}
+
+.card-benefit{
+    display: flex; /* Habilita o gap */
+    flex-direction: column; /* Organiza em coluna */
+    gap: 35px; /* Distância entre os elementos */
+    align-items: center; /* Centraliza na Vertical */
+    padding: 60px 48px;
+    border-radius: 20px;
+}
+
+.card-benefit-secondary{
+    background-color: #F4F4F4;
+
+}
+
+.card-benefit h2{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h3);
+    width: 365px;
+    text-align: center;
+}
+
+.card-benefit p{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    width: 458px;
+    text-align: center;
+}
+
+.btn-benefit{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
